@@ -1,0 +1,12 @@
+let age: number = 29;
+let firstnamr: string = "Ali";
+let lastname: string = "Can";
+let isUpdated: boolean = true;
+
+// tipi belli değilse any yazmak lazım
+// tip belirtmek lazımdır
+
+//fonksiyon kullanımı
+const display = (id: any, name: string) => {
+  console.log("Id = " + id + ", Name= " + name);
+};
