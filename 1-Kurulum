@@ -1,0 +1,26 @@
+##lite-server Terminali
+   1- npm init
+  
+   2- npm install --save-dev lite-server
+  
+   3- package.json dosyasına "start": "lite-server" ekliyoruz
+   "scripts": {
+       "test": "echo \"Error: no test specified\" && exit 1",
+       "start": "lite-server"
+     },
+    
+   4-npm start
+
+
+##Yeni Terminal
+  1- tsc app.ts 
+  //bu derleme işlemidir typescripti javascripte derlemeye yarar
+  //yeni bir js dosyası oluşur (app.ts i kopyalar)
+  //ama typescriptin içindeki değişiklikeri js e çevirmek için 
+  //sürekli bu komutu terminalde çalıştırmak gerekir
+
+  2- tsc app.ts -w
+  //her değişiklikte compile eder
+  //sürekli tsc app.ts yazamamız gerekmez
+
+  
