@@ -1,0 +1,36 @@
+enum colors {
+  red, //index gibi: 0
+  blue, //index gibi: 1
+  pink, //index gibi: 2
+  green, //index gibi: 3
+  yellow, //index gibi: 4
+}
+
+console.log(colors.pink); //çıktı: 2
+console.log(colors[0]); //çıkıt: red
+
+
+
+//eğer değer verirsek 0 dan başlamaz değer verdiğimizden saymaya başlar
+enum cars {
+  toyota = 2, //2
+  mercedes, //3
+  fiat, //4
+  porsche, //5
+}
+
+console.log(cars.mercedes); //çıktı: 3
+console.log(cars[4]); //çıktı: fiat
+
+
+
+//karşılığında string bir değer de verebiliriz
+enum names {
+  ali = "ALI",
+  ayse = "AYSE",
+  naz = "NAZ",
+}
+
+console.log(names.ayse); //çıkıt: AYSE
+console.log(names["ali"]); //çıktı: ALI
+console.log(names[0]); //çıktı: undefined
