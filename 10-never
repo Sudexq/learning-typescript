@@ -1,0 +1,13 @@
+//Dönüş tipi never olan fonksiyonlar, hiçbir zaman bir değer dönmez
+
+function throwError(errorMsg: string): never {
+  throw new Error(errorMsg);
+}
+
+throwError("Hata");
+
+let something: void = undefined;
+//let nothing: never = undefined;
+//let nothing: never = null;
+
+//void null ve undefined olabiliyorken never hiçbir şey olamaz
