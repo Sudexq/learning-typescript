@@ -1,0 +1,27 @@
+//iki türlü array tanımı
+let firstnames: string[] = ["Ali", "Ayse", "Can"]; //string array
+let lastnames: Array<string> = ["Yıldız", "Kaya", "Sarı"]; //string array
+
+//belirli tipi olmayan array
+let arr = [1, 3, "Apple", "Orange", true, false];
+
+let furits: Array<string>; //önce arrayi tanımlayıp
+furits = ["Apple", "Orange", "banana"]; //sonra içini doldurabiliriz
+
+let ids: Array<number>;
+ids = [12, 45, 78, 96, 42];
+
+let values: (string | number)[] = [1, 3, "Apple", "Orange"];
+//hem string hem number ifadeler barınabilir
+//boolean ifade koyamayız mesela
+
+let valuess: Array<string | number> = [1, 3, "Apple", "Orange"];
+//bu şekilde de olabilir
+
+//console a yazdırma
+
+//console.log(furits[0]);
+
+for (let i = 0; i < furits.length; i++) {
+  console.log(furits[i]); //output: Apple Orange banana
+}
