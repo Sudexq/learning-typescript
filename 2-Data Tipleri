@@ -1,18 +1,3 @@
-let age: number = 29;
-let firstnamr: string = "Ali";
-let lastname: string = "Can";
-let isUpdated: boolean = true;
-
-// tipi belli değilse any yazmak lazım
-// tip belirtmek lazımdır
-
-//fonksiyon kullanımı
-const display = (id: any, name: string) => {
-  console.log("Id = " + id + ", Name= " + name);
-};
-
-------------------------------------------------
-
 let first: number = 123; //integer
 let second: number = 0x37cf; //hexadecimal
 let third: number = 0o377; //octal
@@ -27,3 +12,18 @@ let version1: string = firstname + " is cute also " + firstname + " is tall.";
 let version2: string = `${firstname} is cute also ${firstname} is tall.`;
 
 let isOkay: boolean = true; //boolean
+
+//-------------------------------------------
+
+let age: number = 29;
+let firstnamr: string = "Ali";
+let lastname: string = "Can";
+let isUpdated: boolean = true;
+
+// tipi belli değilse any yazmak lazım
+// tip belirtmek lazımdır
+
+//fonksiyon kullanımı
+const display = (id: any, name: string) => {
+  console.log("Id = " + id + ", Name= " + name);
+};
