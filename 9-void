@@ -3,5 +3,8 @@
 function sayHi(): void {
   console.log("Hi");
 }
-
 //return kullanamayız
+
+let something: void = null;
+let something: void = undefined;
+//olabilir
