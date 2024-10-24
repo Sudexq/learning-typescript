@@ -1,0 +1,7 @@
+//geriye bir şey döndürme yapmıyorsa void kullanırız
+
+function sayHi(): void {
+  console.log("Hi");
+}
+
+//return kullanamayız
