@@ -1,0 +1,55 @@
+type Person = {
+  firstName: string;
+  lastName: string;
+  age: number;
+  jobTitle: string;
+};
+
+let instrustor: Person;
+
+instrustor = {
+  firstName: "Ali",
+  lastName: "Can",
+  age: 20,
+  jobTitle: "Frontend Developer",
+};
+
+console.log(instrustor);
+console.log(instrustor.lastName);
+
+//-------------------------
+//ayrıca böyle ifade edilebilir
+
+let person: {
+  firstName: string;
+  lastName: string;
+  age: number;
+  jobTitle: string;
+};
+
+person = {
+  firstName: "Ali",
+  lastName: "Can",
+  age: 20,
+  jobTitle: "Frontend Developer",
+};
+
+console.log(person);
+console.log(person.firstName);
+
+//-------------------------------
+//ayrıca bu şekil yerine farklı da olabilir
+
+let human: {
+  firstName: string;
+  lastName: string;
+  age: number;
+  jobTitle: string;
+} = {
+  firstName: "Ali",
+  lastName: "Can",
+  age: 20,
+  jobTitle: "Frontend Developer",
+};
+
+//ama ilk type ile yaptığımız daha kullanılabilir
