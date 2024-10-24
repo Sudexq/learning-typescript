@@ -10,3 +10,20 @@ let isUpdated: boolean = true;
 const display = (id: any, name: string) => {
   console.log("Id = " + id + ", Name= " + name);
 };
+
+------------------------------------------------
+
+let first: number = 123; //integer
+let second: number = 0x37cf; //hexadecimal
+let third: number = 0o377; //octal
+let fourth: number = 0b111001; //binary
+
+let firstname: string = "Ali"; //string
+
+//pre-ES6
+let version1: string = firstname + " is cute also " + firstname + " is tall.";
+
+//post-ES6
+let version2: string = `${firstname} is cute also ${firstname} is tall.`;
+
+let isOkay: boolean = true; //boolean
