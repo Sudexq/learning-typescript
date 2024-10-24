@@ -1,0 +1,32 @@
+//tip çıkarımı yapılması
+
+let price = 0;
+//let price: number = 0;
+console.log(typeof price); //çıktı: number
+
+
+
+function increment(counter: number) {
+  return counter++;
+}
+
+// function increment(counter: number): number {
+//   return counter++;
+// }
+//aynıdır bir hata vermez çünkü fonksiyonun number olduğunun çıkarımını yapar
+
+
+
+
+let a = "some text";
+let b = 123;
+a = b; //hata verir çünkü a nın string b nin number olduğunun çıkarımını yapar
+
+
+
+function sum(a: number, b: number) {
+  return a + b;
+}
+
+let total: string = sum(10, 45);
+//hata verir çünkü sum fonksiyonunun tipini number olarak düşünür ve stringe atayamaz
