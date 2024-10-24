@@ -1,0 +1,27 @@
+//type ı her şey olabilene any deriz
+
+//string
+let something: any = "Hello";
+console.log(something); //çıktı: Hello
+
+//number
+something = 34;
+console.log(something); //çıktı: 34
+
+//boolean
+something = false;
+console.log(something); //çıktı: false
+
+//object
+something = {
+  firstname: "ali",
+  lastname: "kaan",
+};
+console.log(something.firstname); //çıktı: ali
+
+//array
+let arr: any[];
+arr = ["ali", 1, true];
+console.log(arr[2]); //çıktı: true
+
+//çok önerilmesede sıklıkla kullanılan bir tip
