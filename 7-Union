@@ -1,0 +1,14 @@
+//şu değer olabilir veya (|) bu değer olabilir
+
+let code: string | number = "123"; //string veya number olabilir
+console.log(code);
+
+code = 12345; //sayı atadım ve hata vermedi
+console.log(code); //çıktı: 12345
+
+let task: string | number | boolean;
+task = false;
+console.log(task); //çıktı: false
+
+task = "task 1";
+console.log(task); //çıktı: task 1
