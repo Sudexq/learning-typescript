@@ -1,0 +1,10 @@
+let inst: [number, string] = [1, "Ali"]; //örnek bir tuple
+
+let user: [number, string, boolean, number, string];
+user = [1, "Ali", true, 20, "Admin"];
+
+console.log(inst, user);
+
+//tuple array
+let employee: [number, string][]; //tupple array bu şekilde tanımlanır
+employee = [ [1, "Ali"], [2, "Ayse"], [3, "Can"],];
